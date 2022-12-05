@@ -22,7 +22,7 @@ class Login extends StatelessWidget {
               textInputAction: TextInputAction.next,
               decoration: InputDecoration(
                   label: Text("User Name (Email)"),
-                  border: OutlineInputBorder()),
+                  border: UnderlineInputBorder()),
             ),
             SizedBox(height: 20),
             TextField(
@@ -30,7 +30,7 @@ class Login extends StatelessWidget {
               obscureText: true,
               textInputAction: TextInputAction.done,
               decoration: InputDecoration(
-                  label: Text("Password"), border: OutlineInputBorder()),
+                  label: Text("Password"), border: UnderlineInputBorder()),
             ),
             SizedBox(height: 40),
             ElevatedButton(
