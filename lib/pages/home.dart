@@ -16,8 +16,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int selectedIndex = 0;
   final pilihPageWidget = [
-    SubMenu(),
     JadwalKuliah(),
+    SubMenu(),
     Profil(),
   ];
   @override
@@ -50,9 +50,9 @@ class _HomeState extends State<Home> {
           currentIndex: selectedIndex,
           onTap: onItemTapped,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "home"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.schedule), label: "Jadwal Kuliah"),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profil"),
           ]),
     );
