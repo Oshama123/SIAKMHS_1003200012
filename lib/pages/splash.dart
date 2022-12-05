@@ -14,6 +14,7 @@ class Splash extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Sistem Akademik Mahasiswa"),
+        automaticallyImplyLeading: false,
       ),
       body: Center(
           child: Column(
