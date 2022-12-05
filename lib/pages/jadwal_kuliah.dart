@@ -19,7 +19,7 @@ class JadwalKuliah extends StatelessWidget {
           trailing: Text("08.00 - 10.00 AM"),
         ),
         Divider(
-          color: Colors.black,
+          color: Colors.white,
         ),
         ListTile(
           title: Text("Sistem Manajemen Basis Data"),
@@ -29,7 +29,7 @@ class JadwalKuliah extends StatelessWidget {
           trailing: Text("08.00 - 10.00 AM"),
         ),
         Divider(
-          color: Colors.black,
+          color: Colors.white,
         ),
         ListTile(
           title: Text("Pemrograman .NET"),
@@ -46,7 +46,7 @@ class JadwalKuliah extends StatelessWidget {
           trailing: Text("10.00 - 12.00 AM"),
         ),
         Divider(
-          color: Colors.black,
+          color: Colors.white,
         ),
         ListTile(
           title: Text("Keamanan Informasi & Jaringan"),
@@ -56,7 +56,7 @@ class JadwalKuliah extends StatelessWidget {
           trailing: Text("10.00 - 12.00 AM"),
         ),
         Divider(
-          color: Colors.black,
+          color: Colors.white,
         ),
         ListTile(
           title: Text("Visualisasi 3D"),
@@ -73,7 +73,7 @@ class JadwalKuliah extends StatelessWidget {
           trailing: Text("10.00 - 12.00 PM"),
         ),
         Divider(
-          color: Colors.black,
+          color: Colors.white,
         ),
       ]),
     );
